@@ -72,16 +72,16 @@ dentro da pasta `dist/app` há um executável que pode ser aberto para executar 
 ### Segundo método
 
 ### 1. Clonar o repositório
-git clone https://github.com/sydn3yjoms0m/Dashboard-Financeiro---POO.git
-cd Dashboard-Financeiro---POO
+* git clone https://github.com/sydn3yjoms0m/Dashboard-Financeiro---POO.git
+* cd Dashboard-Financeiro---POO
 
 ### 3. Instalar as dependências externas
 Este projeto utiliza duas bibliotecas externas principais para a interface e gráficos:
-pip install customtkinter matplotlib
+* pip install customtkinter matplotlib
 
 ### 4. Rodar a aplicação
 Execute o arquivo principal da interface:
-python app.py
+* python app.py
 
 
 
