@@ -39,11 +39,18 @@ A classe `Carteira` possui uma relação de composição com as transações, ge
 
 ## 📁 Estrutura do Projeto
 
+# /app_fonte/
+  
 Para garantir a separação de responsabilidades, o código foi dividido em três arquivos:
 
 * `modelos.py`: Contém as regras de negócio puras e a estrutura das classes de POO.
 * `json_gerente.py`: Responsável exclusivamente pelo mapeamento dos objetos, salvamento e leitura do arquivo JSON.
 * `app.py`: Camada visual e interface gráfica desenvolvida em `CustomTkinter` integrada com o `Matplotlib`.
+
+# /app_empacotado/
+  
+Possui o programa juntamente de suas depências, feito com o pyinstaller, convertendo todo o script em uma executável.
+o executável está em `/app_empacotado/dist/app/`.
 
 ---
 
