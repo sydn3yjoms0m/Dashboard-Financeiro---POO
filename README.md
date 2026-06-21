@@ -47,29 +47,12 @@ Para garantir a separação de responsabilidades, o código foi dividido em trê
 * `json_gerente.py`: Responsável exclusivamente pelo mapeamento dos objetos, salvamento e leitura do arquivo JSON.
 * `app.py`: Camada visual e interface gráfica desenvolvida em `CustomTkinter` integrada com o `Matplotlib`.
 
-# /app_empacotado/
-  
-Possui o programa juntamente de suas depências, feito com o pyinstaller, convertendo todo o script em uma executável.
-o executável está em `/app_empacotado/dist/app/`.
-
 ---
 
 ## 🛠️ Como Executar o Projeto
 
 ### Pré-requisitos
 Certifique-se de ter o Python 3 instalado em sua máquina. 
-
-### Primeiro método
-
-### 1. Clonar o repositório
-git clone https://github.com/sydn3yjoms0m/Dashboard-Financeiro---POO.git
-cd Dashboard-Financeiro---POO
-
-### 2. Executar o app.exe
-Dentro da pasta `app_empacotado` tem todas as dependências empacotados para executar o aplicativo e 
-dentro da pasta `dist/app` há um executável que pode ser aberto para executar a aplicação diretamente em seu computador.
-
-### Segundo método
 
 ### 1. Clonar o repositório
 * git clone https://github.com/sydn3yjoms0m/Dashboard-Financeiro---POO.git
