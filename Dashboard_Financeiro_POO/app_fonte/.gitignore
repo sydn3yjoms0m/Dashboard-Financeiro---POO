@@ -1,0 +1,8 @@
+# Arquivos de dados locais 
+dados_financas_v2.json
+
+# Cache do Python (Tradução que o Python faz em segundo plano)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
